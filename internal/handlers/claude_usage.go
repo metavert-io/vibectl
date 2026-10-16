@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/jonradoff/vibectl/internal/middleware"
-	"github.com/jonradoff/vibectl/internal/models"
-	"github.com/jonradoff/vibectl/internal/services"
+	"github.com/metavert-io/vibectl/internal/middleware"
+	"github.com/metavert-io/vibectl/internal/models"
+	"github.com/metavert-io/vibectl/internal/services"
 )
 
 // ClaudeUsageHandler exposes Claude Code token usage data via HTTP.

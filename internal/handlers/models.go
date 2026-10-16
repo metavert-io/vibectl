@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/jonradoff/vibectl/internal/middleware"
+	"github.com/metavert-io/vibectl/internal/middleware"
 )
 
 // ModelsHandler exposes GET /api/v1/models — the list of Claude models the

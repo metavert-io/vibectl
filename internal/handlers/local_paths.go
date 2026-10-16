@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/jonradoff/vibectl/internal/client"
+	"github.com/metavert-io/vibectl/internal/client"
 )
 
 // LocalPathsHandler serves local path override CRUD in client mode.

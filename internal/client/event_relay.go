@@ -9,7 +9,7 @@ import (
 
 	"encoding/json"
 
-	"github.com/jonradoff/vibectl/internal/events"
+	"github.com/metavert-io/vibectl/internal/events"
 )
 
 // StartEventRelay connects to the remote server's SSE event stream and

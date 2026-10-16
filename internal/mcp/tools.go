@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jonradoff/vibectl/internal/models"
+	"github.com/metavert-io/vibectl/internal/models"
 	"github.com/mark3labs/mcp-go/mcp"
 )
 

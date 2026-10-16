@@ -1,7 +1,7 @@
 .PHONY: build dev client dev-client test lint docker-up docker-down frontend-dev frontend-build frontend-client-dev
 
 VERSION ?= 0.2.0
-LDFLAGS = -ldflags "-X github.com/jonradoff/vibectl/internal/config.Version=$(VERSION)"
+LDFLAGS = -ldflags "-X github.com/metavert-io/vibectl/internal/config.Version=$(VERSION)"
 
 build:
 	cd cmd/server && go build $(LDFLAGS) -o ../../vibectl-server .

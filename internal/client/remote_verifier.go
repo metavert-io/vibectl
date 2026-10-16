@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jonradoff/vibectl/internal/models"
+	"github.com/metavert-io/vibectl/internal/models"
 	"go.mongodb.org/mongo-driver/v2/bson"
 )
 

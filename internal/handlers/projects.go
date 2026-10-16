@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/jonradoff/vibectl/internal/events"
-	"github.com/jonradoff/vibectl/internal/middleware"
-	"github.com/jonradoff/vibectl/internal/models"
-	"github.com/jonradoff/vibectl/internal/services"
+	"github.com/metavert-io/vibectl/internal/events"
+	"github.com/metavert-io/vibectl/internal/middleware"
+	"github.com/metavert-io/vibectl/internal/models"
+	"github.com/metavert-io/vibectl/internal/services"
 	"go.mongodb.org/mongo-driver/v2/bson"
 )
 

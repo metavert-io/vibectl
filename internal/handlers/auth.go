@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jonradoff/vibectl/internal/middleware"
-	"github.com/jonradoff/vibectl/internal/services"
+	"github.com/metavert-io/vibectl/internal/middleware"
+	"github.com/metavert-io/vibectl/internal/services"
 )
 
 // AuthHandler handles all authentication flows: password login, GitHub OAuth, change-password, and self-info.

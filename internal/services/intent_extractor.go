@@ -13,7 +13,7 @@ import (
 
 	"go.mongodb.org/mongo-driver/v2/bson"
 
-	"github.com/jonradoff/vibectl/internal/models"
+	"github.com/metavert-io/vibectl/internal/models"
 )
 
 // AICompleter is the interface for making Claude API calls (avoids circular import with agents).

@@ -1,4 +1,4 @@
-module github.com/jonradoff/vibectl
+module github.com/metavert-io/vibectl
 
 go 1.25.5
 

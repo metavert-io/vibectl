@@ -17,9 +17,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jonradoff/vibectl/internal/middleware"
-	"github.com/jonradoff/vibectl/internal/services"
-	"github.com/jonradoff/vibectl/internal/terminal"
+	"github.com/metavert-io/vibectl/internal/middleware"
+	"github.com/metavert-io/vibectl/internal/services"
+	"github.com/metavert-io/vibectl/internal/terminal"
 )
 
 // AdminHandler handles administrative operations: rebuild/restart and legacy set-password (CLI compat).

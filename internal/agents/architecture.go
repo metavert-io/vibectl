@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/jonradoff/vibectl/internal/services"
+	"github.com/metavert-io/vibectl/internal/services"
 )
 
 // ArchitectureAgent generates architecture summaries by analyzing project directories.

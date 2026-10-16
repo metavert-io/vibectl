@@ -10,8 +10,8 @@ import (
 	"go.mongodb.org/mongo-driver/v2/mongo"
 	"go.mongodb.org/mongo-driver/v2/mongo/options"
 
-	"github.com/jonradoff/vibectl/internal/events"
-	"github.com/jonradoff/vibectl/internal/models"
+	"github.com/metavert-io/vibectl/internal/events"
+	"github.com/metavert-io/vibectl/internal/models"
 )
 
 var codePattern = regexp.MustCompile(`^[A-Z]{3,5}$`)

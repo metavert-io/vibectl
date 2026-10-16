@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/jonradoff/vibectl/internal/models"
+	"github.com/metavert-io/vibectl/internal/models"
 )
 
 // TokenVerifier is satisfied by AuthSessionService (standalone mode) and

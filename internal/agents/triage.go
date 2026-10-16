@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/jonradoff/vibectl/internal/models"
-	"github.com/jonradoff/vibectl/internal/services"
+	"github.com/metavert-io/vibectl/internal/models"
+	"github.com/metavert-io/vibectl/internal/services"
 )
 
 type TriageAgent struct {

@@ -9,8 +9,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/jonradoff/vibectl/internal/middleware"
-	"github.com/jonradoff/vibectl/internal/models"
+	"github.com/metavert-io/vibectl/internal/middleware"
+	"github.com/metavert-io/vibectl/internal/models"
 )
 
 // DetectedTarget is a single candidate deployment target surfaced to the UI.

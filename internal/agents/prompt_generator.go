@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/jonradoff/vibectl/internal/models"
+	"github.com/metavert-io/vibectl/internal/models"
 )
 
 // GeneratePrompt compiles accepted feedback items into a structured prompt for Claude Code.

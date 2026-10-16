@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jonradoff/vibectl/internal/models"
+	"github.com/metavert-io/vibectl/internal/models"
 )
 
 // VibectlMdService generates and writes VIBECTL.md files for projects.

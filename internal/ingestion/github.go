@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jonradoff/vibectl/internal/models"
-	"github.com/jonradoff/vibectl/internal/services"
+	"github.com/metavert-io/vibectl/internal/models"
+	"github.com/metavert-io/vibectl/internal/services"
 )
 
 // DelegationChecker provides read-only access to delegation state for the sweeper.

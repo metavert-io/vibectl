@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	vibectlclient "github.com/jonradoff/vibectl/internal/client"
-	"github.com/jonradoff/vibectl/internal/events"
-	"github.com/jonradoff/vibectl/internal/middleware"
+	vibectlclient "github.com/metavert-io/vibectl/internal/client"
+	"github.com/metavert-io/vibectl/internal/events"
+	"github.com/metavert-io/vibectl/internal/middleware"
 )
 
 // Status represents the current delegation state.

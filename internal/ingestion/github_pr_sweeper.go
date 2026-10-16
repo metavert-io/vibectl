@@ -10,7 +10,7 @@ import (
 
 	"go.mongodb.org/mongo-driver/v2/bson"
 
-	"github.com/jonradoff/vibectl/internal/services"
+	"github.com/metavert-io/vibectl/internal/services"
 )
 
 // PRSweeper checks open GitHub PRs linked to intents and updates their state.

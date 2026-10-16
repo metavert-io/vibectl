@@ -6,10 +6,10 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/jonradoff/vibectl/internal/agents"
-	"github.com/jonradoff/vibectl/internal/ingestion"
-	"github.com/jonradoff/vibectl/internal/middleware"
-	"github.com/jonradoff/vibectl/internal/services"
+	"github.com/metavert-io/vibectl/internal/agents"
+	"github.com/metavert-io/vibectl/internal/ingestion"
+	"github.com/metavert-io/vibectl/internal/middleware"
+	"github.com/metavert-io/vibectl/internal/services"
 )
 
 type AgentHandler struct {

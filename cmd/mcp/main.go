@@ -8,10 +8,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/jonradoff/vibectl/internal/agents"
-	"github.com/jonradoff/vibectl/internal/config"
-	vibemcp "github.com/jonradoff/vibectl/internal/mcp"
-	"github.com/jonradoff/vibectl/internal/services"
+	"github.com/metavert-io/vibectl/internal/agents"
+	"github.com/metavert-io/vibectl/internal/config"
+	vibemcp "github.com/metavert-io/vibectl/internal/mcp"
+	"github.com/metavert-io/vibectl/internal/services"
 	"go.mongodb.org/mongo-driver/v2/mongo"
 	"go.mongodb.org/mongo-driver/v2/mongo/options"
 )

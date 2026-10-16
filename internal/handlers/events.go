@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/jonradoff/vibectl/internal/events"
+	"github.com/metavert-io/vibectl/internal/events"
 )
 
 type EventsHandler struct {
