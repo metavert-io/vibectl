@@ -193,7 +193,7 @@ brew install mongodb-community && brew services start mongodb-community
 ### 2. Clone and configure
 
 ```bash
-git clone https://github.com/jonradoff/vibectl
+git clone https://github.com/metavert-io/vibectl
 cd vibectl
 
 cp .env.example .env
@@ -535,7 +535,7 @@ VibeCtl implements a health check standard for backend services. Add a `/healthz
 The `pkg/healthz` package implements this protocol for Go services:
 
 ```go
-import "github.com/jonradoff/vibectl/pkg/healthz"
+import "github.com/metavert-io/vibectl/pkg/healthz"
 
 checks := map[string]healthz.CheckFunc{
     "mongodb": func() error { return db.Ping(ctx, nil) },

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useMode } from '../../contexts/ModeContext'
 
-const REPO_URL = 'https://github.com/jonradoff/vibectl'
+const REPO_URL = 'https://github.com/metavert-io/vibectl'
 
 function CopyButton({ text }: { text: string }) {
   const [copied, setCopied] = useState(false)

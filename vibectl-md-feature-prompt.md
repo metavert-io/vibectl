@@ -580,7 +580,7 @@ var Version = "0.2.0" // updated manually or via ldflags at build time
 Set via ldflags in the Makefile:
 ```makefile
 VERSION ?= 0.2.0
-LDFLAGS = -ldflags "-X github.com/jonradoff/vibectl/internal/config.Version=$(VERSION)"
+LDFLAGS = -ldflags "-X github.com/metavert-io/vibectl/internal/config.Version=$(VERSION)"
 
 build:
 	cd cmd/server && go build $(LDFLAGS) -o ../../vibectl-server .
